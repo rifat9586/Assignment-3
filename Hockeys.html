@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockeys</title>
+
+    <!-- Tailwindcss and daisyui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+   
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+<style>
+.manrope{
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+</style>
+</head>
+<body class="manrope">
+    <section>
+        <div class="w-[90%] m-auto">
+            <div class="carousel h-[350px] lg:h-[550px]">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="./Images/1.png" class="lg:w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="./Images/2.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="./Images/3.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="./Images/4.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 w-[90%] m-auto">
+        <div>
+            <h3 class="text-3xl lg:text-4xl font-extrabold text-center">Professional Hockeys Club</h3>
+            <p class="text-base text-center font-medium p-3 w-[90%] lg:w-[60%] m-auto text-[#13131899]">With ten men’s teams, six ladies teams, a mixed side, a range of youth teams, various touring sides and Back to Hockey sessions.</p>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-4 text-center py-10">
+
+            <div class="w-[300px] lg:w-[100%] m-auto pb-2">
+               <div class="lg:mx-5 mt-5">
+                <div class="radial-progress text-red-500" style="--value:87;" role="progressbar">87%</div>
+                <h4 class="text-xl font-medium py-3">Prayer Facility</h4>
+                <p class="text-base font-normal text-[#13131899]">Woking Hockey Club is one of the largest hockey</p>
+               </div>
+            </div>
+
+            <div class="w-[300px] lg:w-[100%] m-auto pb-2">
+            <div class="lg:mx-5 mt-5">
+                <div class="radial-progress text-[#49D293]" style="--value:95;" role="progressbar">95%</div>
+                 <h4 class="text-xl font-medium py-3">Experienced Coach</h4>
+                 <p class="text-base font-normal text-[#13131899]">summer league sides and Back to Hockey sessions.</p>
+            </div>
+            </div>
+            <div class="w-[300px] lg:w-[100%] m-auto pb-2">
+                <div class="lg:mx-5 mt-5">
+                <div class="radial-progress text-yellow-500" style="--value:90;" role="progressbar">90%</div>
+                 <h4 class="text-xl font-medium py-3">Senior Player</h4>
+                 <p class="text-base font-normal text-[#13131899]">Woking Hockey clubs has superb facilities</p>
+            </div>
+            </div>
+            <div class="w-[300px] lg:w-[100%] m-auto pb-2">
+                <div class="lg:mx-5 mt-5">
+                <div class="radial-progress text-[#4C8DF1]" style="--value:80;" role="progressbar">80%</div>
+                 <h4 class="text-xl font-medium py-3">Training Ground</h4>
+                 <p class="text-base font-normal text-[#13131899]">We have a thriving social community.</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
